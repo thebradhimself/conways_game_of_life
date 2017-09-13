@@ -39,7 +39,7 @@ def draw_matrix(matrix, changes)
   end
 
   matrix.each do |var|
-    p var
+    p var.join(" ")
   end 
   sleep 0.15
   return matrix
